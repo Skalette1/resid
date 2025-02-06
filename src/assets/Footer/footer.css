@@ -1,0 +1,13 @@
+footer {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    margin: 4rem;
+}

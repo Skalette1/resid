@@ -1,0 +1,70 @@
+@media(max-width: 500px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header-app {
+        display: none;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-51%);
+    }
+
+    .features img {
+        transform: scale(.6);
+    }
+
+    .features img {
+        margin-top: -7rem;
+    }
+
+    .map img {
+        transform: scale(.4);
+    }
+
+    #award {
+        transform: translate(60%, -5.9%) scale(.8);  
+    }
+
+    .rieltor-container {
+        display: flex;
+        justify-content: center;
+        margin-right: 1rem;
+    }
+
+    .rieltor-left-bottom {
+        display: flex;
+        justify-content: center;
+      }
+
+    .rieltor-container input {
+        padding: 0.5rem;
+        font-size: .9rem;
+    }
+
+    .rieltor-container button {
+        padding: 0.5rem;
+        font-size: .9rem;
+    }
+    
+    .aparts img {
+        transform: scale(.3);
+    }
+    .aparts p{
+        font-size: 1rem;
+    }
+
+    .aparts h3 {
+        font-size: .4rem;
+        display: none;
+    }
+
+    .test {
+        font-size: .5rem;
+    }
+}

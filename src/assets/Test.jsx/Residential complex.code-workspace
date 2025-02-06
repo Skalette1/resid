@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Residential complex",
+			"path": "../../../.."
+		},
+		{
+			"name": "ШРИФТЫ",
+			"path": "../../../../../ШРИФТЫ"
+		},
+		{
+			"path": "../../../../../helvetica-neue-55-cufonfonts"
+		}
+	],
+	"settings": {}
+}
