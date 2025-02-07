@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import './media.css'
-import Header from './header.jsx'
+// import Header from './header.jsx'
 import Features from './assets/Features.jsx'
 import Map from './Map.jsx'
 import PhotoCarousel from './carusel.jsx'
@@ -21,8 +21,7 @@ import App from './Popup.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-
-    <Header />
+    {/* <Header /> */}
     <Features />
     <Map />
     <PhotoCarousel />
@@ -38,5 +37,6 @@ createRoot(document.getElementById('root')).render(
     <Kredit />
     <Footer />
     <App />
+
   </StrictMode>
 )
