@@ -4,7 +4,7 @@ import { clearClicker } from "./AppartPent"
 const Message = ({ count, setCount }) => {
   let message;
   if(count === 0) {
-    message = 'Если бы ты что то нажал, мы бы что нибудь подобрали'
+    message = 'Если бы ты ты что то нажал(а), мы бы что нибудь подобрали'
   }
   else if(count === 1) {
     message = `Подобрали ${count} вариант недвижимости по вашим параметрам. Куда их прислать?` 

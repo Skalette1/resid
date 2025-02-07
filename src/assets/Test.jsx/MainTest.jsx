@@ -16,7 +16,7 @@ const MainTest = () => {
                 <Route path="/test" element={<Test1 count={count} setCount={setCount} />} />
                 <Route path="/planirovka" element={<Planirovka count={count} setCount={setCount} />} />
                 <Route path="/area" element={<Area count={count} setCount={setCount} />} />
-                <Route path="/message" element={<Message count={count} />} />
+                <Route path="/message" element={<Message count={count} setCount={setCount}/>} />
             </Routes>
         </Router>
     );
